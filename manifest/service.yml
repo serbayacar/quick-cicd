@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: quick-ci-cd-service
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: quickcicd
   ports:
